@@ -1,5 +1,13 @@
-:root{
-    --purple: #c42265c8;
+:root {
+    --primary-color: #333; /* Example color */
+    --secondary-color: #555; /* Example color */
+    --accent-color: #ff9900; /* Example color */
+    --background-color: #f0f0f0; /* Example color */
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--primary-color);
 }
 
 *{
@@ -49,6 +57,43 @@ section{
 
 .btn:hover {
     background: var(--purple);
+}
+
+.header, .footer, .navbar a, .btn {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+}
+
+.header .logo span, .navbar a:hover, .btn:hover, .footer a:hover {
+    color: var(--accent-color);
+}
+
+.icons a {
+    color: var(--secondary-color);
+}
+
+/* Increase the size of the cart icons */
+.fas.fa-shopping-cart {
+    font-size: 1.5em; /* Adjust as needed */
+}
+
+/* Ensure consistent styling for other elements */
+.video-container h3, .content h3, .heading span {
+    color: var(--accent-color);
+}
+
+/* Update other elements to match the color palette */
+.box-container .box .content h3, .box-container .box .price span {
+    color: var(--accent-color);
+}
+
+.box-container .box .icons a, .box-container .box .icons .cart-btn {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+}
+
+.box-container .box .icons .cart-btn:hover {
+    background-color: var(--accent-color);
 }
 
 header{
