@@ -56,13 +56,6 @@ section{
 
 header{
     background-color: var(--background-color); /* Light Cream */
-}
-
-.navbar{
-    background-color: var(--background-color); /* Light Cream */
-}
-
-header{
     position: fixed;
     top: 0; left: 0; right: 0;
     padding: 2rem 9%;
@@ -78,10 +71,6 @@ header .logo{
     font-size: 3rem;
     font-weight: bolder;
     color: #6B4226;
-}
-
-.navbar{
-        background-color: FAF3E0;
 }
 
 header .navbar a{
