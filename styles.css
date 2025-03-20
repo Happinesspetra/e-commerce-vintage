@@ -59,7 +59,6 @@ header{
     top: 0; left: 0; right: 0;
     padding: 2rem 9%;
     display: flex;
-    background: #FAF3E0;
     align-items: center;
     justify-content: space-between;
     z-index: 1000; 
