@@ -68,11 +68,7 @@ section{
 
 .icons a {
     color: var(--secondary-color);
-}
-
-/* Increase the size of the cart icons */
-.fas.fa-shopping-cart {
-    font-size: 2rem; /* Adjust as needed */
+    font-size: 1.5rem;
 }
 
 header{
