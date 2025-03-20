@@ -967,54 +967,81 @@ header .fa-bars{
    resize: none;
 }
 
-.footer .box-container{
+.footer {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 2rem 9%;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
+}
+
+.footer .box-container {
+    display: flex;
+    flex-wrap: nowrap;
     gap: 1.5rem;
-    margin-left: 50px;
+    margin-left: 0;
+    flex: 1;
 }
 
-.footer .box-container .box{
-   flex: 1 1 25rem;
+.footer .box-container .box {
+    flex: 1;
+    min-width: 200px;
 }
 
-.footer .box-container .box h3{
-   color: #333;
-   font-size: 2.5rem;
-   padding: 1rem 0;
+.footer .box-container .box h3 {
+    color: var(--secondary-color);
+    font-size: 2rem;
+    padding: 1rem 0;
 }
 
-.footer .box-container .box a{
+.footer .box-container .box a {
     display: block;
     font-size: 1.5rem;
     padding: 1rem 0;
- }
-
- .footer .box-container .box a:hover{
-    text-decoration: underline;
+    color: var(--secondary-color);
 }
 
-.footer .box-container .box img{
+.footer .box-container .box a:hover {
+    text-decoration: underline;
+    color: var(--accent-color);
+}
+
+.footer .box-container .box img {
     margin-top: 1rem;
 }
 
-.footer .credit{
+.footer .credit {
     text-align: center;
     padding: 1.5rem;
     margin-top: 1.5rem;
     padding-top: 2.5rem;
     font-size: 2rem;
-    border-top: 1rem solid rgba(0,0,0,.1);
+    border-top: 1rem solid rgba(0, 0, 0, .1);
+    color: var(--secondary-color);
+    flex: 1;
 }
 
-.footer .credit span a{
+.footer .credit span a {
+    color: var(--secondary-color);
 }
 
 .social-links {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 1rem;
+    flex: 1;
 }
 
+.social-links a {
+    color: var(--secondary-color);
+    font-size: 2rem;
+}
+
+.social-links a:hover {
+    color: var(--accent-color);
+}
 
 /* BackToTop Section Starts */
 
@@ -1031,15 +1058,15 @@ header .fa-bars{
     border-radius: 50%;
     font-size: 18px;
     transition: background-color 0.3s;
-  }
-  
-  .back-to-top:hover {
-    background-color: palevioletred;
-    color: #fff;
-  }
+    background-color: var(--accent-color);
+}
+
+.back-to-top:hover {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
 
 /* BackToTop Section Ends */
-       
 
 /* media queries */
 @media (max-width:991px) {
