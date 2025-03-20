@@ -54,7 +54,7 @@ section{
     color: var(--background-color);
 }
 
-.header .logo span, .navbar a:hover, .btn:hover, .footer a:hover {
+.header .logo .logo span, .navbar a:hover, .btn:hover, .footer a:hover {
     color: var(--accent-color);
 }
 
@@ -78,6 +78,7 @@ header{
 header .logo{
     font-size: 3rem;
     font-weight: bolder;
+    color: #6B4226;
 }
 
 header .navbar a{
@@ -434,6 +435,7 @@ header .fa-bars{
 }
 
 .footer .credit span a{
+    color: #C9A66B;
 }
 
 .social-links {
