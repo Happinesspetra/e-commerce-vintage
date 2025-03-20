@@ -40,7 +40,7 @@ section{
 }
 
 .heading span{
-    color: var(--purple);
+    color: var(--primary-color);
 }
 
 .btn {
