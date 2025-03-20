@@ -972,31 +972,34 @@ header .fa-bars{
     color: #FAF3E0;
     padding: 2rem 9%;
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    text-align: center;
+    flex-wrap: wrap;
 }
 
-/* Box container layout */
 .footer .box-container {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     gap: 1.5rem;
-    justify-content: center;
-    width: 100%;
+    margin-left: 0;
+    flex: 1;
 }
 
-/* Each box should take full width on mobile */
 .footer .box-container .box {
     flex: 1;
-    min-width: 250px;
+    min-width: 200px;
 }
 
-/* Footer Links */
+.footer .box-container .box h3 {
+    color: ;
+    font-size: 2rem;
+    padding: 1rem 0;
+}
+
 .footer .box-container .box a {
     display: block;
     font-size: 1.5rem;
-    padding: 0.5rem 0;
+    padding: 1rem 0;
     color: var(--secondary-color);
 }
 
