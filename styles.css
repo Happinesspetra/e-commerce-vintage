@@ -54,6 +54,11 @@ section{
     font-size: 1.8rem;
 }
 
+--primary-color: #6B4226; /* Deep Brown */
+    --accent-color: #C9A66B; /* Muted Gold */
+    --background-color: #FAF3E0; /* Light Cream */
+}
+
 header{
     position: fixed;
     top: 0; left: 0; right: 0;
@@ -61,7 +66,7 @@ header{
     display: flex;
     align-items: center;
     color: #6B4226;
-    background: FAF3E0;
+    background-color: FAF3E0;
     justify-content: space-between;
     z-index: 1000; 
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
@@ -76,6 +81,7 @@ header .logo{
 header .navbar a{
     font-size: 2rem;
     padding: 0 1.5rem;
+    background-color: FAF3E0;
 }
 
 header .icon a{
