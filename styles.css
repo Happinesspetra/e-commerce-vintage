@@ -42,21 +42,11 @@ section{
     transition: all 0.3s ease; /* Smooth transition for all properties */
 }
 
-
 .btn:hover,
 .btn:active {
-    background: var(--accent-color);
+    background: #FAF3E0;
     border: 2px solid var(--primary-color); /* Add border on hover or active */
-    color: #FAF3E0; /* Change text color on hover or active */
-}
-
-.header, .footer, .navbar a, .btn {
-    background-color: var(--primary-color);
-    color: var(--background-color);
-}
-
-.header .logo .logo span, .navbar a:hover, .btn:hover, .footer a:hover {
-    color: var(--accent-color);
+    color: #C9A66B; /* Change text color on hover or active */
 }
 
 .icons a {
