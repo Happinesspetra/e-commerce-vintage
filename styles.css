@@ -320,7 +320,7 @@ header .fa-bars{
     font-size: 1.3rem; 
     line-height: 1.5;
     padding-left: 2rem;
- }
+}
 
 .review .box-container .box .user{ 
     display: flex;
@@ -339,7 +339,6 @@ header .fa-bars{
 .review .box-container .box .user h3{ 
     color: var(--primary-color); /* Deep Brown */
     font-size: 1.3rem; /* Slightly smaller than the current size */
-    
 }
 
 .contact .row {
