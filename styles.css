@@ -55,7 +55,6 @@ section{
 }
 
 .btn:hover {
-    background: var(--purple);
 }
 
 .header, .footer, .navbar a, .btn {
