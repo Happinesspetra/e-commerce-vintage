@@ -782,7 +782,7 @@ header .fa-bars{
 
 .products .box-container .box{
     flex: 1 1 30rem;
-    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+    box-shadow: 0 .5rem 1.5rem;
     border-radius: .5rem;
     border: 1rem solid rgba(0,0,0,.1);
     position: relative;
@@ -846,7 +846,6 @@ header .fa-bars{
 
 .products .box-container .box .content .price{
     font-size: 2.5rem;
-    color: var(--purple);
     font-weight: bolder;
     padding-top: 1rem;
 }
@@ -939,7 +938,7 @@ header .fa-bars{
 .contact .row form .box{
    padding: 1rem;
    font-size: 1.7rem;
-   color: #333;
+   color: #6B4226;
    text-transform:  none;
    border: .1rem solid rgba(0,0,0,.1);
    border-radius: .5rem;
@@ -948,6 +947,7 @@ header .fa-bars{
 }
 
 .contact .row form .box:focus{
+    color: #C9A66B;
 }
 
 .contact .row form textarea{
@@ -1044,7 +1044,7 @@ header .fa-bars{
     color: white;
     cursor: pointer;
     padding: 15px;
-    border-radius: 50%;
+    border-radius: 80%;
     font-size: 18px;
     transition: background-color 0.3s;
     background-color: var(--accent-color);
@@ -1087,7 +1087,6 @@ header .fa-bars{
 
    header .navbar{
     position: absolute;
-    background: #FAF3E0;
     top: 100%; left: 0; right: 0;
     border-top: .1rem solid rgba(0,0,0,.1);
     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
