@@ -60,6 +60,7 @@ header{
     padding: 2rem 9%;
     display: flex;
     align-items: center;
+    color: #FAF3E0;
     justify-content: space-between;
     z-index: 1000; 
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
@@ -491,7 +492,6 @@ header .fa-bars{
    header .navbar{
     position: absolute;
     top: 100%; left: 0; right: 0;
-    background: #eee;
     border-top: .1rem solid rgba(0,0,0,.1);
     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
    }
@@ -600,15 +600,6 @@ section{
 
 .header .logo span, .navbar a:hover, .btn:hover, .footer a:hover {
     color: var(--accent-color);
-}
-
-.icons a {
-    color: var(--secondary-color);
-}
-
-/* Increase the size of the cart icons */
-.fas.fa-shopping-cart {
-    font-size: 1.5em; /* Adjust as needed */
 }
 
 /* Ensure consistent styling for other elements */
@@ -1056,7 +1047,6 @@ header .fa-bars{
 
 .back-to-top:hover {
     background-color: var(--primary-color);
-    color: var(--secondary-color);
 }
 
 /* BackToTop Section Ends */
@@ -1093,7 +1083,6 @@ header .fa-bars{
    header .navbar{
     position: absolute;
     top: 100%; left: 0; right: 0;
-    background: #eee;
     border-top: .1rem solid rgba(0,0,0,.1);
     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
    }
