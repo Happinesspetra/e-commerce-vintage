@@ -984,7 +984,7 @@ header .fa-bars{
 }
 
 .footer .box-container .box h3 {
-    color: ;
+    color: #C9A66B;
     font-size: 2rem;
     padding: 1rem 0;
 }
@@ -993,7 +993,6 @@ header .fa-bars{
     display: block;
     font-size: 1.5rem;
     padding: 1rem 0;
-    color: var(--secondary-color);
 }
 
 /* Footer Credit */
