@@ -1,8 +1,7 @@
 :root {
-    --primary-color: #333; /* Example color */
-    --secondary-color: #555; /* Example color */
-    --accent-color: #ff9900; /* Example color */
-    --background-color: #f0f0f0; /* Example color */
+    --primary-color: #6B4226; /* Deep Brown */
+    --accent-color: #C9A66B; /* Muted Gold */
+    --background-color: #FAF3E0; /* Light Cream */
 }
 
 body {
@@ -74,26 +73,7 @@ section{
 
 /* Increase the size of the cart icons */
 .fas.fa-shopping-cart {
-    font-size: 1.5em; /* Adjust as needed */
-}
-
-/* Ensure consistent styling for other elements */
-.video-container h3, .content h3, .heading span {
-    color: var(--accent-color);
-}
-
-/* Update other elements to match the color palette */
-.box-container .box .content h3, .box-container .box .price span {
-    color: var(--accent-color);
-}
-
-.box-container .box .icons a, .box-container .box .icons .cart-btn {
-    background-color: var(--primary-color);
-    color: var(--background-color);
-}
-
-.box-container .box .icons .cart-btn:hover {
-    background-color: var(--accent-color);
+    font-size: 1.8em; /* Adjust as needed */
 }
 
 header{
