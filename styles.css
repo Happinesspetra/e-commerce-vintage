@@ -42,11 +42,12 @@ section{
     transition: all 0.3s ease; /* Smooth transition for all properties */
 }
 
+
 .btn:hover,
 .btn:active {
     background: var(--accent-color);
     border: 2px solid var(--primary-color); /* Add border on hover or active */
-    color: var(--primary-color); /* Change text color on hover or active */
+    color: #FAF3E0; /* Change text color on hover or active */
 }
 
 .header, .footer, .navbar a, .btn {
