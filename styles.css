@@ -336,9 +336,9 @@ header .fa-bars{
     margin-right: 1rem;
 }
 
-.review .box-container .box .user h3{ 
-    color: var(--primary-color); /* Deep Brown */
-    font-size: 1.3rem; /* Slightly smaller than the current size */
+.review .box-container .box p{ 
+    color: var(--primary-color); 
+    font-size: 1.3rem; 
 }
 
 .contact .row {
