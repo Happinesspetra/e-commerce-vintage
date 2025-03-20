@@ -369,7 +369,7 @@ header .fa-bars{
 .contact .row form .box{
    padding: 1rem;
    font-size: 1.7rem;
-   color: #333;
+   color: #6B4226;
    text-transform:  none;
    border: .1rem solid rgba(0,0,0,.1);
    border-radius: .5rem;
@@ -397,7 +397,7 @@ header .fa-bars{
 }
 
 .footer .box-container .box h3{
-   color: #333;
+   color: #6B4226;
    font-size: 2.5rem;
    padding: 1rem 0;
 }
@@ -581,18 +581,6 @@ section{
     padding: 2rem 9%;
 }
 
-.heading{
-    text-align: center;
-    font-size: 4rem;
-    color: #333;
-    padding: 1rem;
-    margin: 2rem 0;
-    background: rgba(255, 51, 153,.05);
-}
-
-.heading span{
-    color: var(--purple);
-}
 
 .header, .footer, .navbar a, .btn {
     background-color: var(--primary-color);
