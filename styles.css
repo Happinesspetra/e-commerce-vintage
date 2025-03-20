@@ -312,7 +312,6 @@ header .fa-bars{
 
 .products .box-container .box .content h3{
     font-size: 2.5rem;
-    color: #333;
 }
 
 .products .box-container .box .content .price{
@@ -324,7 +323,6 @@ header .fa-bars{
 
 .products .box-container .box .content .price span{
     font-size: 1.5rem;
-    color: #999;
     font-weight: lighter;
     text-decoration: line-through;
 }
@@ -351,7 +349,6 @@ header .fa-bars{
 }
 
 .review .box-container .box .stars i{ 
-   color: var(--purple);
    font-size: 2rem;
 }
 
@@ -378,12 +375,10 @@ header .fa-bars{
 
 .review .box-container .box .user h3{ 
     font-size: 2rem;
-    color: #333;
 }
 
 .review .box-container .box .user h3{ 
     font-size: 1.5rem;
-    color: #999;
 }
 
 .contact .row {
@@ -398,7 +393,6 @@ header .fa-bars{
     padding: 2rem 2.5rem;
     box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
     border: .1rem solid rgba(0,0,0,.1);
-    background: #fff;
     border-radius: .5rem;
 }
 
@@ -424,7 +418,6 @@ header .fa-bars{
 }
 
 .contact .row form .box:focus{
-   border-color: var(--purple);
 }
 
 .contact .row form textarea{
@@ -451,13 +444,11 @@ header .fa-bars{
 
 .footer .box-container .box a{
     display: block;
-    color: #666;
     font-size: 1.5rem;
     padding: 1rem 0;
  }
 
  .footer .box-container .box a:hover{
-    color: var(--purple);
     text-decoration: underline;
 }
 
@@ -471,12 +462,10 @@ header .fa-bars{
     margin-top: 1.5rem;
     padding-top: 2.5rem;
     font-size: 2rem;
-    color: #333;
     border-top: 1rem solid rgba(0,0,0,.1);
 }
 
 .footer .credit span a{
-    color: var(--purple);
 }
 
 .social-links {
@@ -494,7 +483,6 @@ header .fa-bars{
     z-index: 99;
     border: none;
     outline: none;
-    background-color: var(--purple);
     color: white;
     cursor: pointer;
     padding: 15px;
@@ -555,7 +543,6 @@ header .fa-bars{
    header .navbar a{
    margin: 1.5rem;
    padding: 1.5rem;
-   background: #fff;
    border: .1rem solid rgba(0,0,0,.1);
    display: block;
    }
