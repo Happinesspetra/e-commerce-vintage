@@ -55,7 +55,14 @@ section{
 }
 
 header{
-    background-color: FAF3E0;
+    background-color: var(--background-color); /* Light Cream */
+}
+
+.navbar{
+    background-color: var(--background-color); /* Light Cream */
+}
+
+header{
     position: fixed;
     top: 0; left: 0; right: 0;
     padding: 2rem 9%;
