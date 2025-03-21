@@ -244,6 +244,10 @@ header .fa-bars{
     object-fit: cover;
 }
 
+.products .box-container .box:hover .image img{
+   transform: scale(.5);
+}
+
 .products .box-container .box .image .icons{
    position: absolute;
    bottom: -7rem; left: 0; right: 0;
