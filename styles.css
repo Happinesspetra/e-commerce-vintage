@@ -78,6 +78,8 @@ header .logo{
 }
 
 header .navbar a{
+    background-color: transparent; /* Remove brown background */
+    color: var(--primary-color); /* Ensure text remains deep brown */
     font-size: 2rem;
     padding: 0 1.5rem;
 }
@@ -515,13 +517,11 @@ header .fa-bars{
    display: block;
    }
 
-   /* New rule to make the toggler clickable */
    header label.toggler-label {
     cursor: pointer;
     display: block;
    }
 
-   /* Increase icon size for smaller screens */
    header .icon a{
     font-size: 3rem;
    }
