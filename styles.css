@@ -424,6 +424,12 @@ header .fa-bars{
     font-size: 1.5rem;
     padding: 1rem 0;
     color: #FAF3E0;
+}
+
+.footer a:hover,
+.footer a:focus,
+.footer a:active {
+    color: var(--accent-color); /* Deep Brown */
     text-decoration: underline;
 }
 
