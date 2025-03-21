@@ -245,7 +245,7 @@ header .fa-bars{
 }
 
 .products .box-container .box:hover .image img{
-   transform: scale(.5);
+   transform: scale(1.3);
 }
 
 .products .box-container .box .image .icons{
