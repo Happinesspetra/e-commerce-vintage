@@ -239,6 +239,12 @@ header .fa-bars{
    overflow: hidden;
 }
 
+.products .box-container .box .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 .products .box-container .box .image img{
    height: 25rem;
 }
@@ -312,26 +318,6 @@ header .fa-bars{
     font-size: 2rem;
     z-index: 1;
     border-radius: .5rem;
-}
-
-.products .box-container .box .image{
-   position: relative;
-   text-align: center;
-   padding-top: 2rem;
-   overflow: hidden;
-}
-
-.products .box-container .box .image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.products .box-container .box .image{
-   position: relative;
-   text-align: center;
-   padding-top: 2rem;
-   overflow: hidden;
 }
 
 .review .box-container{
