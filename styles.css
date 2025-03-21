@@ -217,9 +217,9 @@ header .fa-bars{
 
 .products .box-container .box{
     flex: 1 1 30rem;
-    box-shadow: 0 .5rem 1.5rem var(--background-color);
+    box-shadow: 0 .5rem 1.5rem #6B4226;
     border-radius: .5rem;
-    border: 1rem solid var(--background-color);
+    border: 1rem solid var;
     position: relative;
 }
 
