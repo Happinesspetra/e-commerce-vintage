@@ -100,6 +100,35 @@ header .fa-bars{
     display: none;
 }
 
+.home{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background: url(images/handsome-man-with-beard-choosing-shirt-shop.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.home .content{
+    max-width: 50rem;
+}
+
+.home .content h3{
+    font-size: 6rem;
+}
+
+.home .content span{
+    font-size: 3.5rem;
+    padding: 1rem 0;
+    line-height: 1.5;
+}
+
+.home .content p{
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    line-height: 1.5;
+}
+
 .about .row{
     display: flex;
     align-items: center;
