@@ -511,6 +511,7 @@ header .fa-bars{
    }
 
    header .navbar a{
+   background-color: var(--primary-color); /* Deep Brown */
    margin: 1.5rem;
    padding: 1.5rem;
    border: .1rem solid rgba(0,0,0,.1);
