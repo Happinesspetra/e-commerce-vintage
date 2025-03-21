@@ -217,6 +217,88 @@ header .fa-bars{
 
 .products .box-container .box{
     flex: 1 1 30rem;
+    box-shadow: 0 .5rem 1.5rem;
+    border-radius: .5rem;
+    border: 1rem solid rgba(0,0,0,.1);
+    position: relative;
+}
+
+.products .box-container .box .discount{
+    position: absolute;
+    top: 1rem; left: 1rem;
+    padding: .7rem 1rem;
+    font-size: 2rem;
+    z-index: 1;
+    border-radius: .5rem;
+}
+
+.products .box-container .box .image{
+   position: relative;
+   text-align: center;
+   padding-top: 2rem;
+   overflow: hidden;
+}
+
+.products .box-container .box .image img{
+   height: 25rem;
+}
+
+.products .box-container .box:hover .image img{
+   transform: scale(1.1);
+}
+
+.products .box-container .box .image .icons{
+   position: absolute;
+   bottom: -7rem; left: 0; right: 0;
+   display: flex;
+}
+ 
+.products .box-container .box:hover .image .icons{
+    bottom: 0;
+}
+
+.products .box-container .box .image .icons a{
+    height: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    width: 50%;
+}
+
+.products .box-container .box .image .icons .cart-btn{
+    border-left: .1rem solid;
+    border-right: .1rem solid;
+    width: 100%;
+}
+
+.products .box-container .box .content{
+    padding: 2rem;
+    text-align: center;
+}
+
+.products .box-container .box .content h3{
+    font-size: 2.5rem;
+}
+
+.products .box-container .box .content .price{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    padding-top: 1rem;
+}
+
+.products .box-container .box .content .price span{
+    font-size: 1.5rem;
+    font-weight: lighter;
+    text-decoration: line-through;
+}
+
+.products .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.products .box-container .box{
+    flex: 1 1 30rem;
     box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
     border-radius: .5rem;
     border: 1rem solid rgba(0,0,0,.1);
