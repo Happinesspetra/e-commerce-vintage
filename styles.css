@@ -424,6 +424,7 @@ header .fa-bars{
     font-size: 1.5rem;
     padding: 1rem 0;
     color: #FAF3E0;
+    text-decoration: underline;
 }
 
 /* Footer Credit */
