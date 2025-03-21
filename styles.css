@@ -567,6 +567,29 @@ header .fa-bars{
     margin-top: 1rem;
 }
 
+/* BackToTop Section Starts */
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 100%;
+    font-size: 18px;
+    transition: background-color 0.3s;
+    background-color: var(--accent-color);
+}
+
+.back-to-top:hover {
+    background-color: var(--primary-color);
+}
+/* BackToTop Section Ends */
+
 /* media queries */
 @media (max-width:991px) {
     html{
@@ -729,30 +752,6 @@ section{
         flex-wrap: wrap;
     }
 }
-
-/* BackToTop Section Starts */
-
-.back-to-top {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    z-index: 99;
-    border: none;
-    outline: none;
-    color: white;
-    cursor: pointer;
-    padding: 15px;
-    border-radius: 80%;
-    font-size: 18px;
-    transition: background-color 0.3s;
-    background-color: var(--accent-color);
-}
-
-.back-to-top:hover {
-    background-color: var(--primary-color);
-}
-
-/* BackToTop Section Ends */
 
 /* media queries */
 @media (max-width:991px) {
