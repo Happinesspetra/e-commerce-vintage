@@ -117,6 +117,7 @@ header .fa-bars{
 
 .home .content h3{
     font-size: 6rem;
+    color: var(--primary-color); /* Deep Brown */
 }
 
 .home .content span{
@@ -321,7 +322,7 @@ header .fa-bars{
 
 .review .box-container .box p{ 
     color: var(--primary-color); /* Deep Brown */
-    font-size: 1.3rem; 
+    font-size: 1rem; 
     line-height: 1.5;
     padding-left: 2rem;
 }
@@ -340,10 +341,6 @@ header .fa-bars{
     margin-right: 1rem;
 }
 
-.review .box-container .box p{ 
-    color: var(--primary-color); 
-    font-size: 1.3rem; 
-}
 .contact .row {
    display: flex;
    flex-wrap: wrap-reverse;
