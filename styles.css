@@ -147,9 +147,9 @@ header .fa-bars{
     height: 70vh;
 }
 
-.about .row .video-container video{
+.about .row .video-container video {
     width: 100%;
-    border: 1.5rem solid;
+    border: none; 
     border-radius: .5rem;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
     height: 100%;
@@ -379,6 +379,10 @@ header .fa-bars{
 
 .contact .row form .box:focus{
     color: var(--primary-color); 
+}
+
+.contact .row form .box::placeholder {
+    color: var(--primary-color); /* Deep Brown */
 }
 
 .contact .row form textarea{
