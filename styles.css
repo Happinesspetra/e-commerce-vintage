@@ -462,21 +462,18 @@ header .fa-bars{
     height: 40px;
     width: 40px;
     bottom: 20px;
+    display: grid;
+    place-items: center;
     right: 20px;
     z-index: 99;
     border: none;
     outline: none;
     color: white;
     cursor: pointer;
-    padding: 15px;
     border-radius: 100%;
     font-size: 18px;
     transition: background-color 0.3s;
     background-color: var(--accent-color);
-}
-.back-to-top_container{
-    display: grid;
-    place-items: center;
 }
 
 .back-to-top:hover {
