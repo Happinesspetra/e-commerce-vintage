@@ -459,6 +459,8 @@ header .fa-bars{
 
 .back-to-top {
     position: fixed;
+    height: 20px;
+    width: 20px;
     bottom: 20px;
     right: 20px;
     z-index: 99;
