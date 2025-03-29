@@ -462,7 +462,7 @@ header .fa-bars{
     height: 40px;
     width: 40px;
     bottom: 20px;
-    display: grid;
+    display: grid !important;
     place-items: center;
     right: 20px;
     z-index: 99;
