@@ -474,6 +474,10 @@ header .fa-bars{
     transition: background-color 0.3s;
     background-color: var(--accent-color);
 }
+.back-to-top_container{
+    display: grid;
+    place-items: center;
+}
 
 .back-to-top:hover {
     background-color: var(--primary-color);
